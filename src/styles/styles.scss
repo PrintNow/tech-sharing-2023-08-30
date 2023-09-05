@@ -1,0 +1,8 @@
+//$success: #7952b3;
+
+@import "bootstrap/scss/bootstrap.scss";
+
+.nav-link.active {
+  --bs-navbar-active-color: #646cff;
+  font-weight: 500;
+}
