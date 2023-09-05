@@ -25,6 +25,11 @@ const router = createBrowserRouter([
     },
 ]);
 
+let $loadingState = document.getElementById(`loading-state`);
+$loadingState?.classList.add("hide")
+
+setTimeout(() => $loadingState?.remove(), 300)
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
         <RouterProvider router={router}/>
