@@ -1,8 +1,13 @@
-import {Alert} from "react-bootstrap";
+import {Alert, Badge} from "react-bootstrap";
 
 export default function Home() {
     return (
         <div id="Home">
+            <div>
+                <h2>
+                    这是什么环境？ <Badge bg="warning">TEST</Badge>
+                </h2>
+            </div>
             <Alert variant="success">
                 <Alert.Heading>Home page</Alert.Heading>
                 <p>
