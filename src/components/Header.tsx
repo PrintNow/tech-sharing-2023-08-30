@@ -16,7 +16,7 @@ const Header: React.FC = () => {
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
                 <Link to={"/"} className="navbar-brand">
-                    <img src="/vite.svg" alt="Logo" width="30" height="24" className="d-inline-block align-text-top"/>
+                    <img src="/assets/vite.svg" alt="Logo" width="30" height="24" className="d-inline-block align-text-top"/>
                     Vite + React
                 </Link>
 
